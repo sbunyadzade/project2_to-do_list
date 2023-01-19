@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <h1 class="header">To-do list</h1>
+            <div class="container">
+                <div class="yellow-header">
+                    <img class="render" src="./image/sort_desc_passive.svg" alt="">
+                    <ul class="ul">
+                        <li class="li">
+                            <input class="input">
+                            <img class="image" src="./image/button.svg" alt="">
+                        </li>
+                    </ul>
+                    <button class="add-button">
+                        <img class="imageAddElement" src="./image/add_element.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="dragList">
+            List for "drag and drop"s
+            <ul>
+                <li draggable="true">Check emails</li>
+                <li draggable="true">Check Trello boards</li>
+                <li draggable="true">Send email newsletter</li>
+                <li draggable="true">Write daily post</li>
+                <li draggable="true">Publish Post</li>
+                <li draggable="true">Prepare for content marketing call</li>
+                <li draggable="true">Attend content marketing call</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
